@@ -1,0 +1,54 @@
+.nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    // position: sticky;
+    // top: 0;
+
+    h1{
+        color: rgba(255, 255, 255, 0.616);
+    }
+
+    button{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color:#1a1e1f;
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size:1.3rem;
+        background-color: rgba(255, 255, 255, 0.781);
+        border: none;
+        outline: none;
+        border-radius:  0.3rem   ;
+        -webkit-border-radius:  0.3rem   ;
+        -moz-border-radius:  0.3rem   ;
+        -ms-border-radius:  0.3rem   ;
+        -o-border-radius:  0.3rem   ;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+
+        &:hover {
+            transform: scale(0.9);
+            -webkit-transform: scale(0.9);
+            -moz-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            -o-transform: scale(0.9);
+
+        }
+}
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        button{
+            z-index: 9999;
+        }
+    }
+}

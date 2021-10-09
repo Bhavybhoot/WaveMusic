@@ -1,0 +1,50 @@
+.library-song{
+    margin:  0.5rem 1.5rem;
+    display: flex;
+    padding: 1.2rem;
+    align-items: center;
+    background-color:#384144;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+    transition: all .1s ease-in-out;
+
+
+    img{
+        border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+        margin-right: 0.7rem;
+}
+
+&:hover {
+    background-color: #0a090980;
+    cursor: pointer;
+    color: #2d3436;
+}
+
+}
+
+.library-song__info{
+    h3{
+        font-size:0.9rem;
+        color:rgb(206, 206, 206);
+    }
+    h5{
+        font-size: 0.7rem;
+        font-weight: 300;
+        color:rgb(156, 156, 156);
+    }
+}
+
+.selected{
+    background-color: #0a090980;
+    cursor: pointer;
+    color: #2d3436;
+}
+
+
